@@ -1,0 +1,2 @@
+# React-to-keep-track-of-elements
+function GroceryList() {   const items = [     {id: 1, name: 'bread'},     {id: 2, name: 'milk'},     {id: 3, name: 'eggs'}   ];    return (     &lt;>       &lt;h1>Grocery List&lt;/h1>       &lt;ul>         {items.map((item) => &lt;li  ={item.id}>{item.name}&lt;/li>)}       &lt;/ul>     &lt;/>   ); }  ReactDOM.render(&lt;GroceryList />, document.getElementById('root'));
